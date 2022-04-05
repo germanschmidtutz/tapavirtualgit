@@ -1,0 +1,22 @@
+
+
+// navbar
+.navbar-dark{
+    background-color: black !important;
+
+    // ojo puede molestar con el que se abre solo
+    .navbar-collapse{
+        justify-content: end !important;
+    }
+    // 
+    .nav-link{
+        display: flex;
+        justify-content: end;
+        color: red;
+        background-color: aqua;
+    }
+}
+
+
+// fin navbar
+

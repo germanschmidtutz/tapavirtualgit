@@ -1,0 +1,14 @@
+.navbar-dark {
+  background-color: black !important;
+}
+.navbar-dark .navbar-collapse {
+  justify-content: end !important;
+}
+.navbar-dark .nav-link {
+  display: flex;
+  justify-content: end;
+  color: red;
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=estilos.css.map */
