@@ -1,8 +1,20 @@
+*{margin:0;
+padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+// parámetros
+$negro: black;
+$blanco: white;
+
 
 
 // navbar
 .navbar-dark{
     background-color: black !important;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
 
     // ojo puede molestar con el que se abre solo
     .navbar-collapse{
@@ -12,11 +24,319 @@
     .nav-link{
         display: flex;
         justify-content: end;
-        color: red;
-        background-color: aqua;
     }
 }
 
 
 // fin navbar
+
+mark{
+  background-color: rgb(247, 235, 76);
+  color: $negro;
+}
+
+// fuentes
+// cel
+
+// fin fuentes cel
+@media only screen and (max-width: 992px) {
+
+  
+  .fuenteHome{
+    font-family: 'Roboto Mono', monospace;
+    color: $negro;
+      font-size: 3vh;
+      text-shadow: 1px 1px 1px rgb(108, 108, 119);
+      }
+  
+      .primeraLineaHome{
+        font-family: 'Roboto Mono', monospace;
+        color: $negro;
+          font-size: 3vh;
+          text-shadow: 1px 1px 1px rgb(108, 108, 119);
+          margin-top: 8vh;
+      }
+  
+  
+      a .fuenteLogo{
+          font-family: 'Changa One', cursive; 
+          color: $blanco;
+          text-transform: uppercase;
+          font-size: 3vh;
+          margin-top: 20px;
+      }
+  
+      .textoGrande{
+        font-family: 'Roboto Mono', monospace;
+        color: $negro;
+          text-shadow: 1px 1px 1px rgb(108, 108, 119);
+          margin-top: 6vh;
+          font-size: 3vh;
+          margin-bottom: 10vh;
+      }
+    
+
+    .espacioDebajo{
+      margin-bottom: 10vh;
+    }
+
+
+    .fuenteTextoNormalPrimera{
+      font-family: 'Roboto Mono', monospace;
+      color: $negro;
+        font-size: 2.5vh;
+        text-shadow: 1px 1px 1px rgb(108, 108, 119);
+        margin-top: 8vh;
+    }
+
+    .fuenteTextoNormal{
+        font-family: 'Roboto Mono', monospace;
+        color: $negro;
+        font-size: 2.5vh;
+        text-shadow: 1px 1px 1px rgb(108, 108, 119);
+    }
+
+    .fuenteAutores{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 3vh;
+      text-decoration: underline;
+    }
+}
+
+// fuentes pc
+@media only screen and (min-width: 993px) {
+
+
+
+.fuenteBase{
+    font-family: 'Roboto Mono', monospace;
+    color: $negro;
+}
+
+
+.fuenteHome{
+  font-family: 'Roboto Mono', monospace;
+  color: $negro;
+    font-size: 4vh;
+    text-shadow: 1px 1px 1px rgb(108, 108, 119);
+    }
+
+    .primeraLineaHome{
+      font-family: 'Roboto Mono', monospace;
+      color: $negro;
+        font-size: 4vh;
+        text-shadow: 1px 1px 1px rgb(108, 108, 119);
+        margin-top: 10vh;
+    }
+
+
+    a .fuenteLogo{
+        font-family: 'Changa One', cursive; 
+        color: $blanco;
+        text-transform: uppercase;
+        font-size: 5vh;
+        margin-top: 20px;
+    }
+
+    .textoGrande{
+      font-family: 'Roboto Mono', monospace;
+      color: $negro;
+        font-size: 10vh;
+        text-shadow: 1px 1px 1px rgb(108, 108, 119);
+        font-size: 4.5vh;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+
+    .navbar-collapse{
+      mark{
+        background-color: $negro;
+        color: $blanco;
+      }
+    }
+
+
+    
+    .fuenteTextoNormalPrimera{
+      font-family: 'Roboto Mono', monospace;
+      color: $negro;
+        font-size: 4vh;
+        text-shadow: 1px 1px 1px rgb(108, 108, 119);
+        margin-top: 8vh;
+    }
+
+    .fuenteTextoNormal{
+        font-family: 'Roboto Mono', monospace;
+        color: $negro;
+        font-size: 4vh;
+        text-shadow: 1px 1px 1px rgb(108, 108, 119);
+    }
+
+    .fuenteAutores{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 4.5vh;
+      text-decoration: underline;
+    }
+
+    .espacioDebajo{
+      margin-bottom: 15vh;
+    }
+
+  }
+    // fin fuentes pc
+
+
+
+
+// fin fuentes
+
+
+// libros home
+// mobile
+
+@media only screen and (max-width: 992px) {
+
+
+
+.contenedorLibros{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: block;
+
+  }
+  .uno {
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .dos {
+    display: flex;
+    justify-content: center;
+
+  }
+  .tres {
+    display: flex;
+    justify-content: center;
+  }
+  .cuatro {
+    display: flex;
+    justify-content: center;
+
+  }
+  .cinco {
+    display: flex;
+    justify-content: center;
+  }
+  .seis {
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+.librosHome{
+    height: 250px !important;
+    width: auto;
+    margin-bottom: 3vh;
+    justify-content: center !important;
+}
+}
+// fin mobile
+
+// desktop
+
+@media only screen and (min-width: 993px) {
+
+
+
+    .contenedorLibros{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+      }
+      .uno {
+        grid-column: 1 /2;
+        grid-row: 1/2;
+    
+    
+      }
+      .dos {
+        grid-column: 2 / 3;
+        grid-row: 1/2;
+    
+      }
+      .tres {
+        grid-column: 3 / 4;
+        grid-row: 1/2;
+    
+      }
+      .cuatro {
+        grid-column: 1 / 2;
+        grid-row: 2/3;
+    
+      }
+      .cinco {
+        grid-column: 2 / 2;
+        grid-row: 2/3;
+    
+      }
+      .seis {
+        grid-column: 3 / 4;
+        grid-row: 2/3;
+    
+      }
+    
+    
+    .librosHome{
+        height: 500px !important;
+        width: auto;
+        margin-bottom: 6vh;
+        justify-content: center !important;
+    }
+    }
+
+    .card{
+        border: none !important;
+        margin: 30px;
+
+    }
+
+// fin desktop
+
+
+// fin libros home
+
+
+
+// formulario.html
+
+// formulario
+
+
+.mb-3{
+      font-family: 'Roboto Mono', monospace;
+
+}
+
+form{
+  margin-top: 10vh;
+  display: block;
+  width: 80%;
+  justify-content:center;
+  margin-left: 10%;
+ label{
+
+    display: flex !important;
+    justify-content:center !important;
+  }
+}
 
