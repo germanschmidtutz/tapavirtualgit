@@ -18,12 +18,37 @@
   justify-content: end;
 }
 
+h3 a {
+  color: black;
+}
+h3 a:hover {
+  color: black;
+}
+
+ol li {
+  font-family: "Roboto Mono", monospace;
+}
+ol li a {
+  color: black;
+}
+ol li a:hover {
+  color: black;
+}
+
 mark {
   background-color: rgb(247, 235, 76);
   color: black;
 }
 
 @media only screen and (max-width: 992px) {
+  .espacioDebajo {
+    margin-bottom: 10vh;
+  }
+
+  .espacioArriba {
+    margin-top: 10vh;
+  }
+
   .fuenteHome {
     font-family: "Roboto Mono", monospace;
     color: black;
@@ -56,10 +81,6 @@ mark {
     margin-bottom: 10vh;
   }
 
-  .espacioDebajo {
-    margin-bottom: 10vh;
-  }
-
   .fuenteTextoNormalPrimera {
     font-family: "Roboto Mono", monospace;
     color: black;
@@ -79,6 +100,58 @@ mark {
     font-family: "Roboto Mono", monospace;
     font-size: 3vh;
     text-decoration: underline;
+  }
+
+  .nombreDeAutores {
+    font-family: "Roboto Mono", monospace;
+    font-size: 4vh;
+    text-decoration: underline;
+  }
+
+  .contenedorLibros {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: block;
+  }
+
+  .uno {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tres {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cuatro {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cinco {
+    display: flex;
+    justify-content: center;
+  }
+
+  .seis {
+    display: flex;
+    justify-content: center;
+  }
+
+  .librosHome {
+    height: 250px !important;
+    width: auto;
+    margin-bottom: 3vh;
+    justify-content: center !important;
   }
 }
 @media only screen and (min-width: 993px) {
@@ -149,55 +222,17 @@ mark {
   .espacioDebajo {
     margin-bottom: 15vh;
   }
-}
-@media only screen and (max-width: 992px) {
-  .contenedorLibros {
-    display: flex;
-    justify-content: center;
+
+  .espacioArriba {
+    margin-top: 15vh;
   }
 
-  .wrapper {
-    display: block;
+  .nombreDeAutores {
+    font-family: "Roboto Mono", monospace;
+    font-size: 7vh;
+    text-decoration: underline;
   }
 
-  .uno {
-    display: flex;
-    justify-content: center;
-  }
-
-  .dos {
-    display: flex;
-    justify-content: center;
-  }
-
-  .tres {
-    display: flex;
-    justify-content: center;
-  }
-
-  .cuatro {
-    display: flex;
-    justify-content: center;
-  }
-
-  .cinco {
-    display: flex;
-    justify-content: center;
-  }
-
-  .seis {
-    display: flex;
-    justify-content: center;
-  }
-
-  .librosHome {
-    height: 250px !important;
-    width: auto;
-    margin-bottom: 3vh;
-    justify-content: center !important;
-  }
-}
-@media only screen and (min-width: 993px) {
   .contenedorLibros {
     display: flex;
     justify-content: center;
@@ -248,22 +283,6 @@ mark {
 .card {
   border: none !important;
   margin: 30px;
-}
-
-.mb-3 {
-  font-family: "Roboto Mono", monospace;
-}
-
-form {
-  margin-top: 10vh;
-  display: block;
-  width: 80%;
-  justify-content: center;
-  margin-left: 10%;
-}
-form label {
-  display: flex !important;
-  justify-content: center !important;
 }
 
 /*# sourceMappingURL=estilos.css.map */

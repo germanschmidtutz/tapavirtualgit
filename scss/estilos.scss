@@ -27,6 +27,32 @@ $blanco: white;
     }
 }
 
+    // fuentes generales
+
+    h3{
+      a{
+        color: $negro;
+      }
+      
+      a:hover{
+        color: $negro;
+      }
+    }
+
+    ol{
+      li{
+        font-family: 'Roboto Mono', monospace;
+        a{
+          color: $negro;
+        }
+        a:hover{
+          color:$negro;
+        }
+      }
+    }
+
+//  fin fuentes generales
+
 
 // fin navbar
 
@@ -35,13 +61,37 @@ mark{
   color: $negro;
 }
 
-// fuentes
-// cel
+// libros home
 
-// fin fuentes cel
+
+// desktop
+
+
+// fin desktop
+
+
+// fin libros home
+
+
+
+// CEL
+
 @media only screen and (max-width: 992px) {
 
-  
+  // Generales
+  .espacioDebajo{
+    margin-bottom: 10vh;
+  }
+
+  .espacioArriba{
+    margin-top: 10vh;
+  }
+
+  // fin generales
+
+
+  // fuentes
+ 
   .fuenteHome{
     font-family: 'Roboto Mono', monospace;
     color: $negro;
@@ -76,10 +126,6 @@ mark{
       }
     
 
-    .espacioDebajo{
-      margin-bottom: 10vh;
-    }
-
 
     .fuenteTextoNormalPrimera{
       font-family: 'Roboto Mono', monospace;
@@ -101,242 +147,239 @@ mark{
       font-size: 3vh;
       text-decoration: underline;
     }
+
+    .nombreDeAutores{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 4vh;
+      text-decoration: underline;
+    }
+
+    // fin fuentes
+
+
+    // home.html
+
+    // libros home
+
+    .contenedorLibros{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .wrapper {
+      display: block;
+  
+    }
+    .uno {
+      display: flex;
+      justify-content: center;
+  
+  
+    }
+    .dos {
+      display: flex;
+      justify-content: center;
+  
+    }
+    .tres {
+      display: flex;
+      justify-content: center;
+    }
+    .cuatro {
+      display: flex;
+      justify-content: center;
+  
+    }
+    .cinco {
+      display: flex;
+      justify-content: center;
+    }
+    .seis {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+  
+  .librosHome{
+      height: 250px !important;
+      width: auto;
+      margin-bottom: 3vh;
+      justify-content: center !important;
+  }
+
+
+
+
+
 }
 
-// fuentes pc
+
+// FIN CEL
+
+
+
+// PC
 @media only screen and (min-width: 993px) {
 
 
+  // fuentes
+
+  
 
 .fuenteBase{
-    font-family: 'Roboto Mono', monospace;
-    color: $negro;
+  font-family: 'Roboto Mono', monospace;
+  color: $negro;
 }
 
 
 .fuenteHome{
-  font-family: 'Roboto Mono', monospace;
-  color: $negro;
-    font-size: 4vh;
-    text-shadow: 1px 1px 1px rgb(108, 108, 119);
-    }
-
-    .primeraLineaHome{
-      font-family: 'Roboto Mono', monospace;
-      color: $negro;
-        font-size: 4vh;
-        text-shadow: 1px 1px 1px rgb(108, 108, 119);
-        margin-top: 10vh;
-    }
-
-
-    a .fuenteLogo{
-        font-family: 'Changa One', cursive; 
-        color: $blanco;
-        text-transform: uppercase;
-        font-size: 5vh;
-        margin-top: 20px;
-    }
-
-    .textoGrande{
-      font-family: 'Roboto Mono', monospace;
-      color: $negro;
-        font-size: 10vh;
-        text-shadow: 1px 1px 1px rgb(108, 108, 119);
-        font-size: 4.5vh;
-        margin-bottom: 10vh;
-        margin-top: 10vh;
-    }
-
-    .navbar-collapse{
-      mark{
-        background-color: $negro;
-        color: $blanco;
-      }
-    }
-
-
-    
-    .fuenteTextoNormalPrimera{
-      font-family: 'Roboto Mono', monospace;
-      color: $negro;
-        font-size: 4vh;
-        text-shadow: 1px 1px 1px rgb(108, 108, 119);
-        margin-top: 8vh;
-    }
-
-    .fuenteTextoNormal{
-        font-family: 'Roboto Mono', monospace;
-        color: $negro;
-        font-size: 4vh;
-        text-shadow: 1px 1px 1px rgb(108, 108, 119);
-    }
-
-    .fuenteAutores{
-      font-family: 'Roboto Mono', monospace;
-      font-size: 4.5vh;
-      text-decoration: underline;
-    }
-
-    .espacioDebajo{
-      margin-bottom: 15vh;
-    }
-
+font-family: 'Roboto Mono', monospace;
+color: $negro;
+  font-size: 4vh;
+  text-shadow: 1px 1px 1px rgb(108, 108, 119);
   }
-    // fin fuentes pc
+
+  .primeraLineaHome{
+    font-family: 'Roboto Mono', monospace;
+    color: $negro;
+      font-size: 4vh;
+      text-shadow: 1px 1px 1px rgb(108, 108, 119);
+      margin-top: 10vh;
+  }
 
 
+  a .fuenteLogo{
+      font-family: 'Changa One', cursive; 
+      color: $blanco;
+      text-transform: uppercase;
+      font-size: 5vh;
+      margin-top: 20px;
+  }
+
+  .textoGrande{
+    font-family: 'Roboto Mono', monospace;
+    color: $negro;
+      font-size: 10vh;
+      text-shadow: 1px 1px 1px rgb(108, 108, 119);
+      font-size: 4.5vh;
+      margin-bottom: 10vh;
+      margin-top: 10vh;
+  }
+
+  .navbar-collapse{
+    mark{
+      background-color: $negro;
+      color: $blanco;
+    }
+  }
 
 
-// fin fuentes
+  
+  .fuenteTextoNormalPrimera{
+    font-family: 'Roboto Mono', monospace;
+    color: $negro;
+      font-size: 4vh;
+      text-shadow: 1px 1px 1px rgb(108, 108, 119);
+      margin-top: 8vh;
+  }
 
+  .fuenteTextoNormal{
+      font-family: 'Roboto Mono', monospace;
+      color: $negro;
+      font-size: 4vh;
+      text-shadow: 1px 1px 1px rgb(108, 108, 119);
+  }
+
+  .fuenteAutores{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4.5vh;
+    text-decoration: underline;
+  }
+
+  .espacioDebajo{
+    margin-bottom: 15vh;
+  }
+
+  .espacioArriba{
+    margin-top: 15vh;
+  }
+
+
+  .nombreDeAutores{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 7vh;
+    text-decoration: underline;
+  }
+
+
+  // fin fuentes
+
+// index.html
 
 // libros home
-// mobile
-
-@media only screen and (max-width: 992px) {
-
-
 
 .contenedorLibros{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-    display: block;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
-  }
-  .uno {
-    display: flex;
-    justify-content: center;
+}
+.uno {
+  grid-column: 1 /2;
+  grid-row: 1/2;
 
 
-  }
-  .dos {
-    display: flex;
-    justify-content: center;
+}
+.dos {
+  grid-column: 2 / 3;
+  grid-row: 1/2;
 
-  }
-  .tres {
-    display: flex;
-    justify-content: center;
-  }
-  .cuatro {
-    display: flex;
-    justify-content: center;
+}
+.tres {
+  grid-column: 3 / 4;
+  grid-row: 1/2;
 
-  }
-  .cinco {
-    display: flex;
-    justify-content: center;
-  }
-  .seis {
-    display: flex;
-    justify-content: center;
+}
+.cuatro {
+  grid-column: 1 / 2;
+  grid-row: 2/3;
 
-  }
+}
+.cinco {
+  grid-column: 2 / 2;
+  grid-row: 2/3;
+
+}
+.seis {
+  grid-column: 3 / 4;
+  grid-row: 2/3;
+
+}
 
 
 .librosHome{
-    height: 250px !important;
-    width: auto;
-    margin-bottom: 3vh;
-    justify-content: center !important;
+  height: 500px !important;
+  width: auto;
+  margin-bottom: 6vh;
+  justify-content: center !important;
 }
 }
-// fin mobile
 
-// desktop
-
-@media only screen and (min-width: 993px) {
-
-
-
-    .contenedorLibros{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    
-      }
-      .uno {
-        grid-column: 1 /2;
-        grid-row: 1/2;
-    
-    
-      }
-      .dos {
-        grid-column: 2 / 3;
-        grid-row: 1/2;
-    
-      }
-      .tres {
-        grid-column: 3 / 4;
-        grid-row: 1/2;
-    
-      }
-      .cuatro {
-        grid-column: 1 / 2;
-        grid-row: 2/3;
-    
-      }
-      .cinco {
-        grid-column: 2 / 2;
-        grid-row: 2/3;
-    
-      }
-      .seis {
-        grid-column: 3 / 4;
-        grid-row: 2/3;
-    
-      }
-    
-    
-    .librosHome{
-        height: 500px !important;
-        width: auto;
-        margin-bottom: 6vh;
-        justify-content: center !important;
-    }
-    }
-
-    .card{
-        border: none !important;
-        margin: 30px;
-
-    }
-
-// fin desktop
-
+.card{
+  border: none !important;
+  margin: 30px;
 
 // fin libros home
 
 
-
-// formulario.html
-
-// formulario
-
-
-.mb-3{
-      font-family: 'Roboto Mono', monospace;
+// fin index.html
 
 }
 
-form{
-  margin-top: 10vh;
-  display: block;
-  width: 80%;
-  justify-content:center;
-  margin-left: 10%;
- label{
 
-    display: flex !important;
-    justify-content:center !important;
-  }
-}
-
+// FIN
